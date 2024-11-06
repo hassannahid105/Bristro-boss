@@ -1,21 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <a>Item 1</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a>Parent</a>
+        <Link to="/menu">Our Menu</Link>
       </li>
       <li>
-        <a>Item 3</a>
+        <Link to="/order">Order</Link>
       </li>
     </>
   );
   return (
-    <div className="navbar  fixed z-20 opacity-100  text-white max-w-screen-xl ">
+    <div className="navbar  fixed z-20 bg-opacity-50 bg-orange-900 text-white max-w-screen-xl ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
