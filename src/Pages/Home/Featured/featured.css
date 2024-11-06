@@ -1,0 +1,7 @@
+.fatured-item {
+  background-image: url("../../../assets//home/featured.jpg");
+  background-position: right;
+  background-size: cover;
+  /* background-color: black; */
+  /* opacity: 50%; */
+}
